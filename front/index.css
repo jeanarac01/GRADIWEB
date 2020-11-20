@@ -1,0 +1,510 @@
+* {
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#cont {
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+    height: 45%;
+    border: none;
+}
+
+#cont-img {
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    border-radius: 40px;
+    background-image: url('../front/recursos/imagenes/banner-1.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.nom-ciudad {
+    width: 10%;
+    height: 10%;
+    margin: 30px 0px 20px 70px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#cont-txt {
+    width: 10%;
+    height: 25%;
+    margin: 90px 0px 20px 70px;
+    background-image: url('../front/recursos/imagenes/mapa2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.botones-info {
+    width: 5%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 55px;
+    z-index: 2;
+}
+
+.boton1 {
+    width: 100%;
+    height: 25%;
+    background-color: #31328b;
+    border-radius: 0px 20px 20px 5px;
+    position: relative;
+    top: 25px;
+    z-index: 2;
+    padding: 5px;
+    padding-top: 15px;
+}
+
+.icon-clima {
+    width: 80%;
+    height: 50%;
+    margin: 5px;
+}
+
+.estado-clima {
+    width: 80%;
+    height: auto;
+    margin-left: 5px;
+}
+
+.boton2 {
+    width: 100%;
+    height: 30%;
+    background-color: #7b66e6;
+    border-radius: 0px 0px 20px 10px;
+    z-index: 1;
+}
+
+.temperatura-cel {
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.card-body {
+    padding: 5px;
+    height: 48%;
+}
+
+.table-body {
+    margin: 0px;
+    width: 100%;
+    height: 80%;
+    padding: 0px;
+}
+
+.thead {
+    width: 100%;
+    padding: 0px;
+}
+
+.tr {
+    height: 80%;
+    width: 25%;
+    padding: 0px;
+}
+
+.td1 {
+    width: 25%;
+    margin: 5px;
+    height: 80%;
+}
+
+.th1 {
+    text-align: center;
+    width: auto;
+    padding: 0px;
+}
+
+.cont-clima-3 {
+    height: 80%;
+}
+
+.dia {
+    background-color: rgba(0, 0, 0, 0.082);
+    width: 90%;
+    height: 25%;
+    margin: 2px auto;
+    border-radius: 5px;
+}
+
+#diados {
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+#info1 {
+    width: 30%;
+    height: 100%;
+    background-color: #7b66e6;
+    border: none;
+}
+
+.img-place {
+    width: 70%;
+    height: 50%;
+    margin: 0px auto;
+    border-radius: 10px;
+    background-image: url('../front/recursos/imagenes/singapore.png');
+    background-size: cover;
+    background-position: center;
+}
+
+span {
+    text-align: center;
+    margin: auto
+}
+
+.img1 {
+    width: 10%;
+    height: 100%;
+    background-color: black;
+    float: left;
+    border-radius: 5px;
+    background-image: url('../front/recursos/imagenes/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    width: 10%;
+    height: 100%;
+    background-color: rgb(248, 4, 4);
+    float: left;
+    border-radius: 5px;
+    position: relative;
+    right: 4px;
+    background-image: url('../front/recursos/imagenes/profile2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 {
+    width: 10%;
+    height: 100%;
+    background-color: rgb(40, 3, 248);
+    float: left;
+    border-radius: 5px;
+    position: relative;
+    right: 10px;
+    background-image: url('../front/recursos/imagenes/profile3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.imgplus {
+    width: 10%;
+    height: 100%;
+    background-color: #8974f0;
+    float: left;
+    border-radius: 5px;
+    position: relative;
+    right: 15px;
+}
+
+.img-place-2 {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.img-1 {
+    width: 80%;
+    height: 30%;
+    border-radius: 10px;
+    margin: auto;
+    background-image: url('../front/recursos/imagenes/art.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    width: 80%;
+    height: 50%;
+    border-radius: 10px 20px 20px 10px;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    background-image: url('../front/recursos/imagenes/fount.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-pls {
+    width: 20%;
+    float: right;
+    border-radius: 20px;
+    background-color: #7b66e6;
+}
+
+.imgf3 {
+    height: 100%;
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    float: left;
+    margin: 0;
+}
+
+.spn-el-1 {
+    width: 80%;
+    height: 100%;
+    float: right;
+    position: relative;
+    margin: 0;
+    font-size: medium;
+    bottom: 70%;
+    left: 20%;
+}
+
+.spn-gr {
+    font-size: small;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    height: 50%;
+}
+
+#elem-1 {
+    width: 70%;
+    height: 40%;
+    margin: 10px auto;
+    z-index: 3;
+    border-radius: 15px;
+}
+
+.card-head {
+    height: 70%;
+    padding: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.card-img {
+    width: 30%;
+    float: left;
+    background-color: #dbe8f7;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.div-icon-lon {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.card-grados {
+    width: 30%;
+    float: left;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card-ciudad {
+    width: 30%;
+    float: left;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card-footer {
+    height: 25%;
+    padding: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.card-humedad {
+    width: 30%;
+    float: left;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    color: #cecece;
+    font-size: smaller;
+    border-radius: 15px;
+}
+
+.card-est-clima {
+    width: 30%;
+    float: left;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    color: #cecece;
+    font-size: smaller;
+    border-radius: 15px;
+}
+
+.card-km {
+    width: 30%;
+    float: left;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    color: #cecece;
+    font-size: smaller;
+    border-radius: 15px;
+}
+
+#elem-2 {
+    width: 70%;
+    height: 40%;
+    margin: 10px auto;
+    z-index: 3;
+    border-radius: 15px;
+}
+
+.card-head2 {
+    height: 70%;
+    padding: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.card-img2 {
+    width: 30%;
+    float: left;
+    background-color: #dbe8f7;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.div-icon-lon2 {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.card-grados2 {
+    width: 30%;
+    float: left;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card-ciudad2 {
+    width: 30%;
+    float: left;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card-footer2 {
+    height: 25%;
+    padding: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.card-humedad2 {
+    width: 30%;
+    float: left;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    color: #cecece;
+    font-size: smaller;
+    border-radius: 15px;
+}
+
+.card-est-clima2 {
+    width: 30%;
+    float: left;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    color: #cecece;
+    font-size: smaller;
+    border-radius: 15px;
+}
+
+.card-km2 {
+    width: 30%;
+    float: left;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    color: #cecece;
+    font-size: smaller;
+    border-radius: 15px;
+}
+
+#elem-3 {
+    width: 65%;
+    height: 75%;
+    margin: 10px auto;
+    z-index: 3;
+    border-radius: 15px;
+}
+
+.card-head3 {
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.btn-f3 {
+    width: 100%;
+    height: 100%;
+    color: #7b66e6;
+    background-color: #f0eefb;
+    border-radius: 15px;
+}
+
+.card-footer3 {
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    padding: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.img-3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('../front/recursos/imagenes/Captura.PNG');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}

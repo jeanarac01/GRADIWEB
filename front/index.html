@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body onload="cargarDatosclimaBogota()">
+
+    <div class="botones-info">
+        <div class="boton1">
+            <div class="icon-clima"></div>
+            <div class="estado-clima"></div>
+        </div>
+        <div class="boton2">
+            <div class="temperatura-cel"></div>
+        </div>
+    </div>
+
+    <div class="card" id="cont">
+        <div class="card bg-dark text-white" id="cont-img">
+            <div class="nom-ciudad"></div>
+            <div class="card-img-overlay" id="cont-txt"></div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <table class="table-body">
+            <thead class="thead">
+                <tr class="tr">
+                    <td class="th1"><b>3 Days</b> Forecast</td>
+                    <td class="th1"><b>Plays To</b> Visit</td>
+                    <td class="th1"><span style="float: left; margin-right: 15px; width: auto; font-size: small; text-align: center;">+
+                            Top Reviews</span>
+                        <div class="img1"><span>&nbsp;</span></div>
+                        <div class="img2"><span>&nbsp;</span></div>
+                        <div class="img3"><span>&nbsp;</span></div>
+                        <div class="imgplus"><span>6+</span></div>
+                    </td>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <tr class="tr">
+                    <td class="td1">
+                        <div class="cont-clima-3">
+
+                        </div>
+                    </td>
+                    <td class="td1">
+                        <div class="img-place">
+                        </div>
+                    </td>
+                    <td class="td1">
+                        <div class="img-place-2">
+                            <div class="img-1"></div>
+                            <div class="img-2"><button class="btn-pls">+</button></div>
+                        </div>
+                    </td>
+                    <td class="td1" style="border-radius: 15px;">
+
+                        <div class="card" id="elem-1">
+                            <div class="card-head">
+                                <div class="card-img">
+                                    <div class="div-icon-lon"></div>
+                                </div>
+                                <div class="card-grados"></div>
+                                <div class="card-ciudad"></div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-humedad">Humidity: </div>
+                                <div class="card-est-clima"></div>
+                                <div class="card-km"></div>
+                            </div>
+                        </div>
+
+                        <div class="card" id="elem-2">
+                            <div class="card-head2">
+                                <div class="card-img2">
+                                    <div class="div-icon-lon2"></div>
+                                </div>
+                                <div class="card-grados2"></div>
+                                <div class="card-ciudad2"></div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="card-humedad2">Humidity: </div>
+                                <div class="card-est-clima2"></div>
+                                <div class="card-km2"></div>
+                            </div>
+                        </div>
+
+                        <div class="card" id="elem-3">
+                            <div class="card-head3">
+                                <button class="btn-f3">Add Locations</button>
+                            </div>
+                            <div class="card-footer3">
+                                <div class="img-3"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+    <a href='https://www.freepik.es/fotos/ciudad' style="visibility: hidden;">Foto de Ciudad creado por wirestock -
+        www.freepik.es</a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+
+</html>
